@@ -36,3 +36,34 @@ console.log('Your JS file is linked!');
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 //Write your code below this line:
+
+//FizzBuzz
+let myNumber = 51;
+console.log(typeof myNumber);
+for (myNumber = myNumber; myNumber < 102; myNumber++)
+{
+    if (myNumber % 3 == 0)
+    console.log('Fizz'); 
+    else if (myNumber % 5 == 0)
+    console.log('Buzz');
+    else if (myNumber % 15 == 0)
+    console.log('FizzBuzz');
+}
+//switch expression
+const items = 'Jeans';
+switch (items) {
+    case 'Shoes':
+        console.log('Shoes are 50$');
+        break;
+    case 'Jeans':
+        console.log('Jeans are 25$');
+        break;
+    case 'Hat':
+        console.log('Hats are 12$');
+        break;
+    case 'Socks':
+        console.log('Socks are 2$');
+        break;
+    default:
+        console.log('Invalid Item');
+}
